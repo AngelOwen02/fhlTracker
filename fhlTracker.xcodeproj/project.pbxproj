@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7336A832BA4CCAD0006D544 /* BorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7336A822BA4CCAD0006D544 /* BorderTextField.swift */; };
+		F7336A862BA4D4F90006D544 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7336A852BA4D4F90006D544 /* IQKeyboardManagerSwift */; };
 		F7AB4C972BA212C600419908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C962BA212C600419908 /* AppDelegate.swift */; };
 		F7AB4C992BA212C600419908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C982BA212C600419908 /* SceneDelegate.swift */; };
 		F7AB4C9B2BA212C600419908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C9A2BA212C600419908 /* ViewController.swift */; };
 		F7AB4C9E2BA212C600419908 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4C9D2BA212C600419908 /* Base */; };
 		F7AB4CA02BA212C900419908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4C9F2BA212C900419908 /* Assets.xcassets */; };
-		F7AB4CA32BA212C900419908 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4CA22BA212C900419908 /* Base */; };
 		F7AB4CAE2BA212C900419908 /* fhlTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4CAD2BA212C900419908 /* fhlTrackerTests.swift */; };
 		F7AB4CB82BA212C900419908 /* fhlTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4CB72BA212C900419908 /* fhlTrackerUITests.swift */; };
 		F7AB4CBA2BA212C900419908 /* fhlTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4CB92BA212C900419908 /* fhlTrackerUITestsLaunchTests.swift */; };
+		F7AB4CD62BA2312300419908 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4CD52BA2312300419908 /* SplashScreen.storyboard */; };
+		F7AB4CD82BA2313600419908 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4CD72BA2313600419908 /* SplashScreenViewController.swift */; };
+		F7AB4CDD2BA2379F00419908 /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4CDC2BA2379F00419908 /* LocatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7336A822BA4CCAD0006D544 /* BorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderTextField.swift; sourceTree = "<group>"; };
 		F7AB4C932BA212C600419908 /* fhlTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fhlTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AB4C962BA212C600419908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AB4C982BA212C600419908 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7AB4C9A2BA212C600419908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7AB4C9D2BA212C600419908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7AB4C9F2BA212C900419908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7AB4CA22BA212C900419908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7AB4CA42BA212C900419908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7AB4CA92BA212C900419908 /* fhlTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fhlTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AB4CAD2BA212C900419908 /* fhlTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fhlTrackerTests.swift; sourceTree = "<group>"; };
 		F7AB4CB32BA212C900419908 /* fhlTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fhlTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AB4CB72BA212C900419908 /* fhlTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fhlTrackerUITests.swift; sourceTree = "<group>"; };
 		F7AB4CB92BA212C900419908 /* fhlTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fhlTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7AB4CCC2BA219DA00419908 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F7AB4CCF2BA21A0F00419908 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		F7AB4CD12BA21A2200419908 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		F7AB4CD52BA2312300419908 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		F7AB4CD72BA2313600419908 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		F7AB4CDC2BA2379F00419908 /* LocatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7336A862BA4D4F90006D544 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7336A812BA4CC220006D544 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7336A822BA4CCAD0006D544 /* BorderTextField.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F7AB4C8A2BA212C600419908 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +118,13 @@
 		F7AB4C952BA212C600419908 /* fhlTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F7AB4CA42BA212C900419908 /* Info.plist */,
 				F7AB4C962BA212C600419908 /* AppDelegate.swift */,
 				F7AB4C982BA212C600419908 /* SceneDelegate.swift */,
-				F7AB4C9A2BA212C600419908 /* ViewController.swift */,
-				F7AB4C9C2BA212C600419908 /* Main.storyboard */,
 				F7AB4C9F2BA212C900419908 /* Assets.xcassets */,
-				F7AB4CA12BA212C900419908 /* LaunchScreen.storyboard */,
-				F7AB4CA42BA212C900419908 /* Info.plist */,
+				F7336A812BA4CC220006D544 /* Helpers */,
+				F7AB4CD42BA230F900419908 /* SplashScreen */,
+				F7AB4CD92BA2374900419908 /* StatusPackage */,
 			);
 			path = fhlTracker;
 			sourceTree = "<group>";
@@ -127,6 +146,25 @@
 			path = fhlTrackerUITests;
 			sourceTree = "<group>";
 		};
+		F7AB4CD42BA230F900419908 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4CD52BA2312300419908 /* SplashScreen.storyboard */,
+				F7AB4CD72BA2313600419908 /* SplashScreenViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		F7AB4CD92BA2374900419908 /* StatusPackage */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4C9C2BA212C600419908 /* Main.storyboard */,
+				F7AB4CDC2BA2379F00419908 /* LocatorViewController.swift */,
+				F7AB4C9A2BA212C600419908 /* ViewController.swift */,
+			);
+			path = StatusPackage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +181,9 @@
 			dependencies = (
 			);
 			name = fhlTracker;
+			packageProductDependencies = (
+				F7336A852BA4D4F90006D544 /* IQKeyboardManagerSwift */,
+			);
 			productName = fhlTracker;
 			productReference = F7AB4C932BA212C600419908 /* fhlTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -208,13 +249,19 @@
 			};
 			buildConfigurationList = F7AB4C8E2BA212C600419908 /* Build configuration list for PBXProject "fhlTracker" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = es;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				es,
+				"es-419",
+				"es-MX",
 			);
 			mainGroup = F7AB4C8A2BA212C600419908;
+			packageReferences = (
+				F7AB4CD32BA21A6900419908 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				F7336A842BA4D4F90006D544 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F7AB4C942BA212C600419908 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AB4CA02BA212C900419908 /* Assets.xcassets in Resources */,
-				F7AB4CA32BA212C900419908 /* Base in Resources */,
+				F7AB4CD62BA2312300419908 /* SplashScreen.storyboard in Resources */,
 				F7AB4C9E2BA212C600419908 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +307,10 @@
 			files = (
 				F7AB4C9B2BA212C600419908 /* ViewController.swift in Sources */,
 				F7AB4C972BA212C600419908 /* AppDelegate.swift in Sources */,
+				F7AB4CDD2BA2379F00419908 /* LocatorViewController.swift in Sources */,
+				F7AB4CD82BA2313600419908 /* SplashScreenViewController.swift in Sources */,
 				F7AB4C992BA212C600419908 /* SceneDelegate.swift in Sources */,
+				F7336A832BA4CCAD0006D544 /* BorderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,16 +351,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7AB4C9D2BA212C600419908 /* Base */,
+				F7AB4CCC2BA219DA00419908 /* es */,
+				F7AB4CCF2BA21A0F00419908 /* es-419 */,
+				F7AB4CD12BA21A2200419908 /* es-MX */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7AB4CA12BA212C900419908 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7AB4CA22BA212C900419908 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +366,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -384,6 +430,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -445,17 +492,20 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Locator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewLandApps.fhlTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.fhlTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,17 +523,20 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Locator;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewLandApps.fhlTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.fhlTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,6 +660,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7336A842BA4D4F90006D544 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		F7AB4CD32BA21A6900419908 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7336A852BA4D4F90006D544 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7336A842BA4D4F90006D544 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7AB4C8B2BA212C600419908 /* Project object */;
 }
