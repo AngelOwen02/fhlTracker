@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             view.endEditing(true)
         }
     
+    //Esto ajusta el TextField
     func textFieldDidBeginEditing(_ textField: UITextField) {
         // Obtén la posición del textField en relación con la ventana principal
         if let textFieldFrame = textField.superview?.convert(textField.frame, to: nil) {
