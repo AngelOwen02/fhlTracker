@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Esto es para poder manipular eventos del teclado
         IQKeyboardManager.shared.enable = true
+        
         // Retardar el lanzamiento de la aplicación por 3 segundos
         Thread.sleep(forTimeInterval: 3.0)
         
