@@ -11,7 +11,7 @@ struct Api {
     static let serverFH = "https://sistemasservice.trafficmanager.net"
     
     //URL SGD
-    static let serverSGD = "https://administracionsgdservice.trafficmanager.net/"
+    static let serverSGD = "https://administracionsgdservice.trafficmanager.net"
     
     enum EndPoint {
         //MARK: - LOGIN -
@@ -22,12 +22,13 @@ struct Api {
         
         var url: String {
             switch self {
-                //MARK: -LOGIN-
+            //MARK: -LOGIN-
             case .login:
                 return "\(Api.serverFH)/Usuarios/Usuarios/Login"
-                
+               
+            //MARK: -TICKETS-
             case.tickets:
-                return "\(Api.serverSGD)/Despachos/Ticket/GetTicket/{ticket}"
+                return "\(Api.serverSGD)/Despachos/Ticket/GetTicket/"
             }
         }
     }
