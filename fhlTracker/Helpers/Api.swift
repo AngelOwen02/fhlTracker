@@ -11,7 +11,7 @@ struct Api {
     static let serverFH = "https://sistemasservice.trafficmanager.net"
     
     //URL SGD
-    static let serverSGD = "https://administracionsgdservice.trafficmanager.net"
+    static let serverSGD = "https://administracionsgd.ddns.net:7220"
     
     enum EndPoint {
         //MARK: - LOGIN -

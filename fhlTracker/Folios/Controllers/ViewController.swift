@@ -92,7 +92,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // Peticion del token
     @objc func requesToken() {
-        let params = [ "username": "usrPhoenixAdmin", "password": "phoenix123$"] as [String: Any]
+        let params = [ "username": "usrUSRSGD0001", "password": "Abcd1234"] as [String: Any]
         //print(params as Any)
         
         let request = NetworkLoader.createRequestHeader(url: Api.EndPoint.login.url, data: params, method: .post)
