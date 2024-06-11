@@ -261,6 +261,7 @@ class StatusPackageViewController: UIViewController {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "es")
         formatter.dateFormat = "EEEE d 'de' MMMM yyyy"
+        let inputDateFormats = ["yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss"]
 
         // Formatear el objeto Date en el formato de salida deseado
         let formattedDate = formatter.string(from: dateTime)
@@ -272,21 +273,71 @@ class StatusPackageViewController: UIViewController {
         //MARK: -FECHA DE INICIO-
         // Asignamos la fecha de inicio de la entrega
         var inicio1 = dataTickets?.fechaSolicitud
-        //print(inicio1 as Any)
+        print(inicio1 as Any)
+        
+        // Attempt to parse the input date string with each format
+        var date: Date? = nil
+        for format in inputDateFormats {
+            let formatter = DateFormatter()
+            formatter.dateFormat = format
+            if let parsedDate = formatter.date(from: inicio1 ?? "") {
+                date = parsedDate
+                break // Stop loop if a valid date is found
+            }
+        }
+        
+        if let validDate = date {
+            // Define the output date format
+            let outputDateFormatter = DateFormatter()
+            outputDateFormatter.dateFormat = "dd/MM/yy"
+            
+            // Format the Date object into the desired output format
+            let formattedDateString = outputDateFormatter.string(from: validDate)
+            
+            inicio1 = formattedDateString
+            print(formattedDateString) // Prints: "10/06/24"
+            
+            // Creamos una cadena NSMutableAttributedString
+            let attributedString = NSMutableAttributedString(string: "Fecha: " + formattedDateString)
+
+            // Definimos los atributos de texto para la palabra "Recolectando"
+            let range = (attributedString.string as NSString).range(of: "Fecha: ")
+            
+            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+
+            // Asignamos el attributedString al UILabel
+            dateStartText.attributedText = attributedString
+        } else {
+            print("Invalid date string")
+            // Creamos una cadena NSMutableAttributedString
+            let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
+
+            // Definimos los atributos de texto para la palabra "Recolectando"
+            let range = (attributedString.string as NSString).range(of: "Fecha: ")
+            
+            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+
+            // Asignamos el attributedString al UILabel
+            dateStartText.attributedText = attributedString
+        }
         
         // Quita los últimos 4 caracteres
-        if let fechaSinUltimosCuatro = inicio1?.dropLast(4) {
+        //if let fechaSinUltimosCuatro = inicio1?.dropLast(4) {
+        /*if let fechaSinUltimosCuatro = inicio1 {
             // Convierte el Substring a String
             var nuevaFechaString = String(fechaSinUltimosCuatro)
             //print(nuevaFechaString) // Output: 2024-03-15T18:21:20
+            
             // Aquí puedes usar nuevaFechaString para lo que necesites
             // Le agregamos la Z al final
             nuevaFechaString += "Z"
             inicio1 = nuevaFechaString
-        }
+        }*/
         
         // Verificar si la cadena de entrada es válida
-        if let inicio = inicio1 {
+        /*if let inicio = inicio1 {
             // Parsear la cadena de fecha a Date
             let dateFormatter = ISO8601DateFormatter()
             if let dateTime2 = dateFormatter.date(from: inicio) {
@@ -342,7 +393,7 @@ class StatusPackageViewController: UIViewController {
 
             // Asignamos el attributedString al UILabel
             dateStartText.attributedText = attributedString
-        }
+        }*/
         
         //MARK: -DESTINATARIO-
         if dataTickets?.destinatarios.razonSocial != nil {

@@ -28,7 +28,7 @@ struct Api {
                
             //MARK: -TICKETS-
             case.tickets:
-                return "\(Api.serverSGD)/Despachos/Ticket/GetTicket/"
+                return "\(Api.serverSGD)/Despachos/Ticket/GetTicket"
             }
         }
     }

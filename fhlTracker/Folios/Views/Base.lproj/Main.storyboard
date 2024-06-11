@@ -26,7 +26,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O3c-UI-bJj">
                                 <rect key="frame" x="78.000000000000014" y="311" width="237.33333333333337" height="24"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Rastrear su envio o pedido" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExV-tN-LNh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Rastrear su envío o pedido" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExV-tN-LNh">
                                         <rect key="frame" x="0.0" y="0.0" width="213.33333333333334" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,7 +37,7 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escribe el código de rastreo o el número de guia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9i-h8-YCb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escribe el código de rastreo o el número de guía" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9i-h8-YCb">
                                 <rect key="frame" x="47" y="381" width="299" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -149,7 +149,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Código de rastreo / Número de guía" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdC-9e-kXb">
-                                <rect key="frame" x="16" y="106" width="230" height="17"/>
+                                <rect key="frame" x="16" y="106" width="361" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.23921568627450979" green="0.17254901960784313" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -184,7 +184,7 @@
                                     <constraint firstAttribute="height" constant="21" id="V91-SP-mnp"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="statusOne" translatesAutoresizingMaskIntoConstraints="NO" id="CYp-TY-owO" userLabel="Process Status">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="statusZero" translatesAutoresizingMaskIntoConstraints="NO" id="CYp-TY-owO" userLabel="Process Status">
                                 <rect key="frame" x="32" y="242" width="328" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="3B7-d2-RxG"/>
@@ -220,7 +220,7 @@
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destinatario: Newland apps" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9np-WM-3dB" userLabel="Destinatario">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destinatario: Newland apps" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9np-WM-3dB" userLabel="Destinatario">
                                 <rect key="frame" x="16" y="544.66666666666663" width="361" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -232,7 +232,7 @@
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección: Poniente 122 # 390" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zku-IC-bQV" userLabel="Dirección">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirección: Poniente 122 # 390" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zku-IC-bQV" userLabel="Dirección">
                                 <rect key="frame" x="16" y="610.66666666666663" width="361" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -263,6 +263,7 @@
                             <constraint firstItem="6Ot-Lg-dtk" firstAttribute="centerX" secondItem="Vgk-QJ-1LL" secondAttribute="centerX" id="SIV-Pv-0Sx"/>
                             <constraint firstItem="iuj-Ka-TPu" firstAttribute="top" secondItem="bdC-9e-kXb" secondAttribute="bottom" constant="8" id="TBP-0c-Yrh"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bdC-9e-kXb" secondAttribute="trailing" symbolic="YES" id="TV4-0v-IOK"/>
+                            <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="bdC-9e-kXb" secondAttribute="trailing" constant="16" id="Tow-wq-dBW"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="9np-WM-3dB" secondAttribute="trailing" constant="16" id="U09-Ow-O4s"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="rCO-3E-nwV" secondAttribute="trailing" constant="16" id="Vhb-AL-pu8"/>
                             <constraint firstItem="9np-WM-3dB" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="Wie-mB-LXy"/>
@@ -319,7 +320,7 @@
         <image name="file" width="24" height="24"/>
         <image name="logoFH" width="328" height="127"/>
         <image name="packagebox" width="24" height="24"/>
-        <image name="statusOne" width="328" height="74"/>
+        <image name="statusZero" width="328" height="74"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

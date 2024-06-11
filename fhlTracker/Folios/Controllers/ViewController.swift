@@ -210,12 +210,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     
                 case.failure(let error):
                     // Mostrar una alerta
-                    let alert = UIAlertController(title: nil, message: "Token no válido.", preferredStyle: .alert)
+                    //print(error.localizedDescription)
+                    let alert = UIAlertController(title: "Error", message: "Ocurrio un error con los datos.", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
-
-                    // Eliminar el token de UserDefaults
-                    UserDefaults.standard.removeObject(forKey: "token")
                 }
             }
         })

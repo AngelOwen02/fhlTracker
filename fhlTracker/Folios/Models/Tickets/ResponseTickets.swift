@@ -305,7 +305,7 @@ struct Destinatarios: Codable {
     let clienteId: Int?
     let razonSocial: String?
     let rfc: String?
-    let axaptaId: Int? // Asumiendo que puede ser de varios tipos
+    let axaptaId: String? // Asumiendo que puede ser de varios tipos
     let referencia: String?
     let calle: String?
     let numeroExterior: String?
@@ -386,7 +386,7 @@ struct Destinatarios: Codable {
         clienteId = try container.decodeIfPresent(Int.self, forKey: .clienteId)
         razonSocial = try container.decodeIfPresent(String.self, forKey: .razonSocial)
         rfc = try container.decodeIfPresent(String.self, forKey: .rfc)
-        axaptaId = try container.decodeIfPresent(Int.self, forKey: .axaptaId)
+        axaptaId = try container.decodeIfPresent(String.self, forKey: .axaptaId)
         referencia = try container.decodeIfPresent(String.self, forKey: .referencia)
         calle = try container.decodeIfPresent(String.self, forKey: .calle)
         numeroExterior = try container.decodeIfPresent(String.self, forKey: .numeroExterior)
