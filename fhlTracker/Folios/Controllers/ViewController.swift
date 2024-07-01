@@ -56,14 +56,24 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.view.frame.origin.y = 0
         }
     }
-    
-    // Implementa el siguiente método del UITextFieldDelegate
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        // Allow all characters
+        return true
+    }
+  /*  func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         // Solo permitir números
         let allowedCharacters = CharacterSet(charactersIn: "0123456789")
         let characterSet = CharacterSet(charactersIn: string)
         return allowedCharacters.isSuperset(of: characterSet)
     }
+    
+    // Implementa el siguiente método del UITextFieldDelegate
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        // Allow alphanumeric characters (letters and numbers)
+        let allowedCharacters = CharacterSet.alphanumerics
+        let characterSet = CharacterSet(charactersIn: string)
+        return allowedCharacters.isSuperset(of: characterSet)
+    }*/
     
     // Accion del boton Rastreo/Rastrear
     @IBAction func rastroButtonAction(_ sender: Any) {
