@@ -592,7 +592,7 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Locator;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ruta FH Logística";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -605,7 +605,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.fhlTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewLandApps.trackerfh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -623,7 +623,7 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Locator;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ruta FH Logística";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -636,7 +636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fhl.fhlTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewLandApps.trackerfh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
