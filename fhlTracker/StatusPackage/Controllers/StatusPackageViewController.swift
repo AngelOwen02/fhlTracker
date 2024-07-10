@@ -13,10 +13,9 @@ class StatusPackageViewController: UIViewController {
     @IBOutlet weak var processStatus: UIImageView!
     @IBOutlet weak var deliveryProcessStatus: UILabel!
     @IBOutlet weak var deliveryDateText: UILabel!
-    @IBOutlet weak var dateStartText: UILabel!
+    @IBOutlet weak var deliveryHourText: UILabel!
     @IBOutlet weak var destinataryText: UILabel!
     @IBOutlet weak var contactText: UILabel!
-    @IBOutlet weak var addressText: UILabel!
     @IBOutlet weak var referencesText: UILabel!
     
     var dataTickets: DataTicket?
@@ -45,7 +44,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Recolectando")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -67,7 +66,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Asignado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -89,7 +88,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "En ruta")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -111,7 +110,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Entregado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -133,7 +132,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "No entregado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -155,7 +154,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Transferido")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -178,7 +177,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Preparando ruta")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -201,7 +200,7 @@ class StatusPackageViewController: UIViewController {
                 let range = (attributedString.string as NSString).range(of: "Fuera de rango")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: range)
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
 
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
@@ -223,7 +222,7 @@ class StatusPackageViewController: UIViewController {
         
         // MARK: - FECHA DE ENTREGA APROXIMADA -
         // Asignamos la fecha aproximada de entrega
-        //print ("FechaDe Data: ", dataTickets?.fechaPromesaEntrega as Any)
+        print ("FechaDe Data: ", dataTickets?.fechaPromesaEntrega as Any)
         var fechaData1 = dataTickets?.fechaPromesaEntrega
 
         // Verificar si fechaData no es nulo antes de agregar la "Z"
@@ -270,9 +269,32 @@ class StatusPackageViewController: UIViewController {
         // Asignamos la fecha ya procesada
         deliveryDateText.text = formattedDate
         
+        // MARK: -HORA DE ENTREGA APROXIMADA-
+        // Definir un formateador de fecha para el formato de entrada
+        let inputFormatter = DateFormatter()
+        inputFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        
+        // Convertir la cadena de entrada a un objeto Date
+        if let date = inputFormatter.date(from: dataTickets?.fechaPromesaEntrega ?? "") {
+            // Definir un formateador de fecha para el formato de salida
+            let outputFormatter = DateFormatter()
+            outputFormatter.dateFormat = "hh:mm a"
+            outputFormatter.amSymbol = "a. m."
+            outputFormatter.pmSymbol = "p. m."
+            
+            // Formatear el objeto Date en el formato de salida deseado
+            let formattedDateString = outputFormatter.string(from: date)
+            
+            // Asignar la fecha formateada a la etiqueta
+            deliveryHourText.text = formattedDateString
+        } else {
+            print("Fecha de entrada no válida")
+            deliveryHourText.text = "--- ---"
+        }
+        
         //MARK: -FECHA DE INICIO-
         // Asignamos la fecha de inicio de la entrega
-        var inicio1 = dataTickets?.fechaSolicitud
+        /*var inicio1 = dataTickets?.fechaSolicitud
         print(inicio1 as Any)
         
         // Attempt to parse the input date string with each format
@@ -321,7 +343,7 @@ class StatusPackageViewController: UIViewController {
 
             // Asignamos el attributedString al UILabel
             dateStartText.attributedText = attributedString
-        }
+        }*/
         
         // Quita los últimos 4 caracteres
         //if let fechaSinUltimosCuatro = inicio1?.dropLast(4) {
@@ -427,8 +449,44 @@ class StatusPackageViewController: UIViewController {
         //MARK: -TELEFONO/CONTACTO-
         if dataTickets?.destinatarios.contacto != nil {
             // Asignamos el telefono/contacto
+            var mgson = dataTickets?.destinatarios.contacto
+            var inputText5: String?
+            
+            if mgson == nil || mgson!.isEmpty {
+                // Handle the case when mgson is null or empty
+                inputText5 = "" // Or any default value you want to assign
+            } else {
+                do {
+                    // Convert the JSON string to Data
+                    if let jsonData = mgson!.data(using: .utf8) {
+                        // Parse the JSON data into a Dictionary
+                        if let jsonObject = try JSONSerialization.jsonObject(with: jsonData, options: []) as? [String: Any] {
+                            // Check if the JsonObject contains the "Telefono" field
+                            if let telefono = jsonObject["Telefono"] as? String {
+                                inputText5 = telefono
+                            } else {
+                                // Handle the case when "Telefono" field is missing or JsonObject is null
+                                inputText5 = "" // Or any default value you want to assign
+                            }
+                        } else {
+                            // Handle the case when JsonObject is null
+                            inputText5 = "" // Or any default value you want to assign
+                        }
+                    } else {
+                        // Handle the case when JSON data conversion fails
+                        inputText5 = "" // Or any default value you want to assign
+                    }
+                } catch {
+                    // Handle JSON parsing exception
+                    print("Error parsing JSON: \(error.localizedDescription)")
+                    inputText5 = "" // Or any default value you want to assign
+                }
+            }
+            
+            //print("Telefono: \(inputText5 ?? "nil")")
+            
             // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Teléfono: " + (dataTickets?.destinatarios.contacto ?? ""))
+            let attributedString = NSMutableAttributedString(string: "Teléfono: " + (inputText5 ?? ""))
 
             // Definimos los atributos de texto para la palabra "Recolectando"
             let range = (attributedString.string as NSString).range(of: "Teléfono: ")
@@ -454,7 +512,7 @@ class StatusPackageViewController: UIViewController {
         }
         
         //MARK: -DIRECCION-
-        if dataTickets?.destinatarios.calle != nil {
+        /*if dataTickets?.destinatarios.calle != nil {
             // Asignamos el telefono/contacto
             // Creamos una cadena NSMutableAttributedString
             let attributedString = NSMutableAttributedString(string: "Dirección: " + (dataTickets?.destinatarios.calle ?? ""))
@@ -480,7 +538,7 @@ class StatusPackageViewController: UIViewController {
             
             // Asignamos el attributedString al UILabel
             addressText.attributedText = attributedString
-        }
+        }*/
         
         //MARK: -REFERENCIAS-
         if dataTickets?.destinatarios.referencia != nil {

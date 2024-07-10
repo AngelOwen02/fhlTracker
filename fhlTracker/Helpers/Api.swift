@@ -13,12 +13,18 @@ struct Api {
     //URL SGD
     static let serverSGD = "https://administracionsgd.ddns.net:7220"
     
+    // URL SGD Mobile
+    static let serverSGDMobile = "https://administracionsgd.ddns.net:6220/App/Manifiesto"
+    
     enum EndPoint {
         //MARK: - LOGIN -
         case login
         
         //MARK: -TICKETS-
         case tickets
+        
+        //MARK: -ETA DATE-
+        case getTicketsPlaneacion
         
         var url: String {
             switch self {
@@ -29,6 +35,10 @@ struct Api {
             //MARK: -TICKETS-
             case.tickets:
                 return "\(Api.serverSGD)/Despachos/Ticket/GetTicket"
+                
+            //MARK: -ETA DATE-
+            case .getTicketsPlaneacion:
+                return "\(Api.serverSGD)/GetTicketsPlaneacion"
             }
         }
     }
