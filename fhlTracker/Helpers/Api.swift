@@ -38,7 +38,7 @@ struct Api {
                 
             //MARK: -ETA DATE-
             case .getTicketsPlaneacion:
-                return "\(Api.serverSGD)/GetTicketsPlaneacion"
+                return "\(Api.serverSGDMobile)/GetTicketsPlaneacion"
             }
         }
     }

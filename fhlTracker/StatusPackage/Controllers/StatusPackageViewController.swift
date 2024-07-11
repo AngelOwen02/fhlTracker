@@ -19,13 +19,14 @@ class StatusPackageViewController: UIViewController {
     @IBOutlet weak var referencesText: UILabel!
     
     var dataTickets: DataTicket?
+    var statusFinal: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Revisamos la data desde un inicio
         if dataTickets != nil {
-            print("DataStatus: ", dataTickets as Any)
+            //print("DataStatus: ", dataTickets as Any)
             
             //Colocamos la informacion de la data
             folioText.text = dataTickets?.folioTicket
@@ -38,10 +39,10 @@ class StatusPackageViewController: UIViewController {
                 //statusIdText.text = "El estatus del pedido es : Recolectando"
                 
                 // Creamos una cadena NSMutableAttributedString
-                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Recolectando")
+                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : En proceso")
 
                 // Definimos los atributos de texto para la palabra "Recolectando"
-                let range = (attributedString.string as NSString).range(of: "Recolectando")
+                let range = (attributedString.string as NSString).range(of: "En proceso")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
@@ -60,10 +61,10 @@ class StatusPackageViewController: UIViewController {
                 //statusIdText.text = "Asignado"
                 
                 // Creamos una cadena NSMutableAttributedString
-                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Asignado")
+                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Cargado")
 
                 // Definimos los atributos de texto para la palabra "Recolectando"
-                let range = (attributedString.string as NSString).range(of: "Asignado")
+                let range = (attributedString.string as NSString).range(of: "Cargado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
@@ -82,10 +83,10 @@ class StatusPackageViewController: UIViewController {
                 //statusIdText.text = "En ruta"
                 
                 // Creamos una cadena NSMutableAttributedString
-                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : En ruta")
+                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : " + (statusFinal ?? ""))
 
                 // Definimos los atributos de texto para la palabra "Recolectando"
-                let range = (attributedString.string as NSString).range(of: "En ruta")
+                let range = (attributedString.string as NSString).range(of: statusFinal ?? "")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
@@ -94,7 +95,7 @@ class StatusPackageViewController: UIViewController {
                 statusIdText.attributedText = attributedString
                 
                 // Asignamos la imagen
-                processStatus.image = UIImage(named: "statusThree")
+                processStatus.image = UIImage(named: "statusThreeR")
                 
                 //Asignamos el estatus de Entrega
                 deliveryProcessStatus.text = "Entrega estimada"
@@ -138,7 +139,7 @@ class StatusPackageViewController: UIViewController {
                 statusIdText.attributedText = attributedString
                 
                 // Asignamos la imagen
-                //processStatus.image = UIImage(named: "statusFour")
+                processStatus.image = UIImage(named: "statusFourRed")
                 
                 //Asignamos el estatus de Entrega
                 deliveryProcessStatus.text = "El paquete no ha sido entregado"
@@ -466,15 +467,15 @@ class StatusPackageViewController: UIViewController {
                                 inputText5 = telefono
                             } else {
                                 // Handle the case when "Telefono" field is missing or JsonObject is null
-                                inputText5 = "" // Or any default value you want to assign
+                                inputText5 = "-- -- -- -- --" // Or any default value you want to assign
                             }
                         } else {
                             // Handle the case when JsonObject is null
-                            inputText5 = "" // Or any default value you want to assign
+                            inputText5 = "-- -- -- -- --" // Or any default value you want to assign
                         }
                     } else {
                         // Handle the case when JSON data conversion fails
-                        inputText5 = "" // Or any default value you want to assign
+                        inputText5 = "-- -- -- -- --" // Or any default value you want to assign
                     }
                 } catch {
                     // Handle JSON parsing exception

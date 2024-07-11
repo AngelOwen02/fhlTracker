@@ -19,6 +19,7 @@
 		F7336A992BAA04C40006D544 /* ResponseLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7336A982BAA04C40006D544 /* ResponseLogin.swift */; };
 		F7336A9F2BAA191F0006D544 /* ResponseTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7336A9E2BAA191F0006D544 /* ResponseTickets.swift */; };
 		F7336AA22BAA5ACD0006D544 /* StatusPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7336AA12BAA5ACD0006D544 /* StatusPackageViewController.swift */; };
+		F74CD1AC2C40467F001A299A /* ResponseTicketPlaneacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CD1AB2C40467F001A299A /* ResponseTicketPlaneacion.swift */; };
 		F7AB4C972BA212C600419908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C962BA212C600419908 /* AppDelegate.swift */; };
 		F7AB4C992BA212C600419908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C982BA212C600419908 /* SceneDelegate.swift */; };
 		F7AB4C9B2BA212C600419908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4C9A2BA212C600419908 /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 		F7336A982BAA04C40006D544 /* ResponseLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseLogin.swift; sourceTree = "<group>"; };
 		F7336A9E2BAA191F0006D544 /* ResponseTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTickets.swift; sourceTree = "<group>"; };
 		F7336AA12BAA5ACD0006D544 /* StatusPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPackageViewController.swift; sourceTree = "<group>"; };
+		F74CD1AB2C40467F001A299A /* ResponseTicketPlaneacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTicketPlaneacion.swift; sourceTree = "<group>"; };
 		F7AB4C932BA212C600419908 /* fhlTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fhlTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AB4C962BA212C600419908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7AB4C982BA212C600419908 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				F7336A9E2BAA191F0006D544 /* ResponseTickets.swift */,
+				F74CD1AB2C40467F001A299A /* ResponseTicketPlaneacion.swift */,
 			);
 			path = Tickets;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				F7336A8A2BA50CEF0006D544 /* KeyChainServices.swift in Sources */,
 				F7336A992BAA04C40006D544 /* ResponseLogin.swift in Sources */,
 				F7AB4C972BA212C600419908 /* AppDelegate.swift in Sources */,
+				F74CD1AC2C40467F001A299A /* ResponseTicketPlaneacion.swift in Sources */,
 				F7AB4CD82BA2313600419908 /* SplashScreenViewController.swift in Sources */,
 				F7336A922BA50E640006D544 /* RoundedButton.swift in Sources */,
 				F7AB4C992BA212C600419908 /* SceneDelegate.swift in Sources */,
