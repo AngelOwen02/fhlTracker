@@ -222,76 +222,63 @@ class StatusPackageViewController: UIViewController {
         }
         
         // MARK: - FECHA DE ENTREGA APROXIMADA -
-        // Asignamos la fecha aproximada de entrega
-        print ("FechaDe Data: ", dataTickets?.fechaPromesaEntrega as Any)
-        var fechaData1 = dataTickets?.fechaPromesaEntrega
-
-        // Verificar si fechaData no es nulo antes de agregar la "Z"
-        if var fechaData = dataTickets?.fechaPromesaEntrega {
-            fechaData += "Z"
-            fechaData1 = fechaData
-            //print(fechaData1 as Any)
+        func convertToDate(from dateString: String, formats: [String]) -> Date? {
+            for format in formats {
+                let dateFormatter = DateFormatter()
+                dateFormatter.dateFormat = format
+                dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+                if let date = dateFormatter.date(from: dateString) {
+                    return date
+                }
+            }
+            return nil
         }
 
-        // Desempaquetar la cadena de fecha opcional de manera segura
-        guard let entrega = fechaData1 else {
+        // Definir los formatos de entrada
+        let inputDateFormats = ["yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss"]
+
+        // Obtener la fecha de entrega del dataTickets
+        guard let rawFechaPromesaEntrega = dataTickets?.fechaPromesaEntrega else {
             print("Error: La cadena de fecha es nula")
-            
-            // Asignamos la fecha con el error
             deliveryDateText.text = "--- --- --- ---"
             return
         }
 
-        //print("Cadena de fecha:", entrega)
-
-        // Convertir la cadena de fecha a un objeto de tipo Date
-        let dateFormatter = ISO8601DateFormatter()
-        guard let dateTime = dateFormatter.date(from: entrega) else {
+        // Intentar convertir la cadena de fecha a un objeto Date usando los formatos definidos
+        guard let dateTime = convertToDate(from: rawFechaPromesaEntrega, formats: inputDateFormats) else {
             print("Error: No se pudo convertir la cadena de fecha a Date")
-            
-            // Asignamos la fecha con el error
             deliveryDateText.text = "--- --- --- ---"
             return
         }
 
         // Imprimir la fecha después de la conversión para verificar
-        //print("Fecha convertida:", dateTime)
+        print("Fecha convertida:", dateTime)
 
         // Definir un formateador de fecha personalizado para el formato de salida deseado
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "es")
         formatter.dateFormat = "EEEE d 'de' MMMM yyyy"
-        let inputDateFormats = ["yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss"]
 
         // Formatear el objeto Date en el formato de salida deseado
         let formattedDate = formatter.string(from: dateTime)
-        //print(formattedDate)
+        print(formattedDate)
 
-        // Asignamos la fecha ya procesada
+        // Asignar la fecha ya procesada
         deliveryDateText.text = formattedDate
-        
+
         // MARK: -HORA DE ENTREGA APROXIMADA-
-        // Definir un formateador de fecha para el formato de entrada
-        let inputFormatter = DateFormatter()
-        inputFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-        
-        // Convertir la cadena de entrada a un objeto Date
-        if let date = inputFormatter.date(from: dataTickets?.fechaPromesaEntrega ?? "") {
-            // Definir un formateador de fecha para el formato de salida
-            let outputFormatter = DateFormatter()
-            outputFormatter.dateFormat = "hh:mm a"
-            outputFormatter.amSymbol = "a. m."
-            outputFormatter.pmSymbol = "p. m."
-            
-            // Formatear el objeto Date en el formato de salida deseado
-            let formattedDateString = outputFormatter.string(from: date)
-            
-            // Asignar la fecha formateada a la etiqueta
-            deliveryHourText.text = formattedDateString
-        } else {
-            print("Fecha de entrada no válida")
-            deliveryHourText.text = "--- ---"
-        }
+        // Formatear la hora de entrega
+        let hourFormatter = DateFormatter()
+        hourFormatter.dateFormat = "hh:mm a"
+        hourFormatter.amSymbol = "a. m."
+        hourFormatter.pmSymbol = "p. m."
+
+        // Formatear el objeto Date en el formato de salida deseado
+        let formattedHourString = hourFormatter.string(from: dateTime)
+        print(formattedHourString)
+
+        // Asignar la hora ya procesada
+        deliveryHourText.text = formattedHourString
         
         //MARK: -FECHA DE INICIO-
         // Asignamos la fecha de inicio de la entrega

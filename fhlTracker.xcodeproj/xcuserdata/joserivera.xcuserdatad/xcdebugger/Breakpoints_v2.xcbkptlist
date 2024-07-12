@@ -366,402 +366,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c63924b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "231"
-                  endingLineNumber = "231"
-                  offsetFromSymbolStart = "13404">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c63924b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "231"
-                  endingLineNumber = "231"
-                  offsetFromSymbolStart = "13212">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c63924b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "231"
-                  endingLineNumber = "231"
-                  offsetFromSymbolStart = "13496">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "232"
-                  endingLineNumber = "232"
-                  offsetFromSymbolStart = "16080">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "232"
-                  endingLineNumber = "232"
-                  offsetFromSymbolStart = "16484">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "232"
-                  endingLineNumber = "232"
-                  offsetFromSymbolStart = "16412">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "232"
-                  endingLineNumber = "232"
-                  offsetFromSymbolStart = "16796">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "232"
-                  endingLineNumber = "232"
-                  offsetFromSymbolStart = "16956">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639352"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "31884">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639352"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "32076">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639352"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "32244">
-               </Location>
-               <Location
-                  uuid = "748E3009-A648-4C58-8259-8BC09BD4EDA5 - aa4dca676c639352"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "34152">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "250"
-            endingLineNumber = "250"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c63939c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "240"
-                  endingLineNumber = "240"
-                  offsetFromSymbolStart = "13192">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c63939c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "240"
-                  endingLineNumber = "240"
-                  offsetFromSymbolStart = "13000">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c63939c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "240"
-                  endingLineNumber = "240"
-                  offsetFromSymbolStart = "13048">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639c18"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "244"
-                  endingLineNumber = "244"
-                  offsetFromSymbolStart = "15628">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639c18"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "244"
-                  endingLineNumber = "244"
-                  offsetFromSymbolStart = "16032">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639c18"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "244"
-                  endingLineNumber = "244"
-                  offsetFromSymbolStart = "15960">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639c18"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "244"
-                  endingLineNumber = "244"
-                  offsetFromSymbolStart = "16344">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639c18"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "244"
-                  endingLineNumber = "244"
-                  offsetFromSymbolStart = "16504">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639cc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "250"
-                  endingLineNumber = "250"
-                  offsetFromSymbolStart = "31432">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639cc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "250"
-                  endingLineNumber = "250"
-                  offsetFromSymbolStart = "31624">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639cc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "250"
-                  endingLineNumber = "250"
-                  offsetFromSymbolStart = "31792">
-               </Location>
-               <Location
-                  uuid = "2B44EE1E-555D-49B9-A4CE-7EA054DCF908 - aa4dca676c639cc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "250"
-                  endingLineNumber = "250"
-                  offsetFromSymbolStart = "33700">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2313977A-D72C-4B39-BB12-4A526F9D78B5"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -769,8 +373,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "299"
-            endingLineNumber = "299"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -937,8 +541,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "405"
-            endingLineNumber = "405"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -1000,8 +604,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "350"
-            endingLineNumber = "350"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -1063,8 +667,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "363"
-            endingLineNumber = "363"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1079,87 +683,10 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "389"
-            endingLineNumber = "389"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AB07A2BE-2751-42B6-8129-DC7676CCA7D1 - aa4dca676c6c60fa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "342"
-                  endingLineNumber = "342"
-                  offsetFromSymbolStart = "17592">
-               </Location>
-               <Location
-                  uuid = "AB07A2BE-2751-42B6-8129-DC7676CCA7D1 - aa4dca676c6c60db"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "343"
-                  endingLineNumber = "343"
-                  offsetFromSymbolStart = "17292">
-               </Location>
-               <Location
-                  uuid = "AB07A2BE-2751-42B6-8129-DC7676CCA7D1 - aa4dca676c6c6813"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "399"
-                  endingLineNumber = "399"
-                  offsetFromSymbolStart = "17188">
-               </Location>
-               <Location
-                  uuid = "AB07A2BE-2751-42B6-8129-DC7676CCA7D1 - aa4dca676c6c6ac9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "421"
-                  endingLineNumber = "421"
-                  offsetFromSymbolStart = "15664">
-               </Location>
-               <Location
-                  uuid = "AB07A2BE-2751-42B6-8129-DC7676CCA7D1 - aa4dca676c6c6b2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "422"
-                  endingLineNumber = "422"
-                  offsetFromSymbolStart = "16000">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1172,87 +699,10 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "20462CAC-46CA-411D-9658-2581E3CA5345 - aa4dca676c639b35"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "297"
-                  endingLineNumber = "297"
-                  offsetFromSymbolStart = "15508">
-               </Location>
-               <Location
-                  uuid = "20462CAC-46CA-411D-9658-2581E3CA5345 - aa4dca676c639b16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "298"
-                  endingLineNumber = "298"
-                  offsetFromSymbolStart = "15524">
-               </Location>
-               <Location
-                  uuid = "20462CAC-46CA-411D-9658-2581E3CA5345 - aa4dca676c639b16"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "298"
-                  endingLineNumber = "298"
-                  offsetFromSymbolStart = "15372">
-               </Location>
-               <Location
-                  uuid = "20462CAC-46CA-411D-9658-2581E3CA5345 - aa4dca676c6c6ac9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "421"
-                  endingLineNumber = "421"
-                  offsetFromSymbolStart = "15664">
-               </Location>
-               <Location
-                  uuid = "20462CAC-46CA-411D-9658-2581E3CA5345 - aa4dca676c6c6b2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "422"
-                  endingLineNumber = "422"
-                  offsetFromSymbolStart = "16000">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1265,87 +715,10 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "335"
-            endingLineNumber = "335"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0F1A358D-052E-4FD6-92B2-BAE3968704C0 - aa4dca676c639b77"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "299"
-                  endingLineNumber = "299"
-                  offsetFromSymbolStart = "15712">
-               </Location>
-               <Location
-                  uuid = "0F1A358D-052E-4FD6-92B2-BAE3968704C0 - aa4dca676c639b50"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "300"
-                  endingLineNumber = "300"
-                  offsetFromSymbolStart = "15728">
-               </Location>
-               <Location
-                  uuid = "0F1A358D-052E-4FD6-92B2-BAE3968704C0 - aa4dca676c6c64c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "312"
-                  endingLineNumber = "312"
-                  offsetFromSymbolStart = "16292">
-               </Location>
-               <Location
-                  uuid = "0F1A358D-052E-4FD6-92B2-BAE3968704C0 - aa4dca676c6c6ac9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "421"
-                  endingLineNumber = "421"
-                  offsetFromSymbolStart = "15664">
-               </Location>
-               <Location
-                  uuid = "0F1A358D-052E-4FD6-92B2-BAE3968704C0 - aa4dca676c6c6b2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "422"
-                  endingLineNumber = "422"
-                  offsetFromSymbolStart = "16000">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1358,87 +731,10 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "387"
-            endingLineNumber = "387"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F15F65B5-52D7-43FF-8A2C-9AFDE180BC89 - aa4dca676c6c60b8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "340"
-                  endingLineNumber = "340"
-                  offsetFromSymbolStart = "17304">
-               </Location>
-               <Location
-                  uuid = "F15F65B5-52D7-43FF-8A2C-9AFDE180BC89 - aa4dca676c6c6099"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "341"
-                  endingLineNumber = "341"
-                  offsetFromSymbolStart = "17004">
-               </Location>
-               <Location
-                  uuid = "F15F65B5-52D7-43FF-8A2C-9AFDE180BC89 - aa4dca676c6c6813"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "399"
-                  endingLineNumber = "399"
-                  offsetFromSymbolStart = "17188">
-               </Location>
-               <Location
-                  uuid = "F15F65B5-52D7-43FF-8A2C-9AFDE180BC89 - aa4dca676c6c6ac9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "421"
-                  endingLineNumber = "421"
-                  offsetFromSymbolStart = "15664">
-               </Location>
-               <Location
-                  uuid = "F15F65B5-52D7-43FF-8A2C-9AFDE180BC89 - aa4dca676c6c6b2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.StatusPackageViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "422"
-                  endingLineNumber = "422"
-                  offsetFromSymbolStart = "16000">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1533,6 +829,21 @@
                   startingLineNumber = "352"
                   endingLineNumber = "352"
                   offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "1FE29E7B-BC7C-47D1-837F-FBD34C4863A4 - 23ef8d8516e644a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fhlTracker.ViewController.setETAvsEE() -&gt; ()"
+                  moduleName = "fhlTracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/Folios/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "354"
+                  endingLineNumber = "354"
+                  offsetFromSymbolStart = "900">
                </Location>
             </Locations>
          </BreakpointContent>
