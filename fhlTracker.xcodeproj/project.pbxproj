@@ -596,7 +596,7 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ruta FH Logística";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ruta Logística FH";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -627,7 +627,7 @@
 				DEVELOPMENT_TEAM = 425PPMA85P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fhlTracker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ruta FH Logística";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ruta Logística FH";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
