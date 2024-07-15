@@ -15,7 +15,6 @@ class StatusPackageViewController: UIViewController {
     @IBOutlet weak var deliveryDateText: UILabel!
     @IBOutlet weak var deliveryHourText: UILabel!
     @IBOutlet weak var destinataryText: UILabel!
-    @IBOutlet weak var contactText: UILabel!
     @IBOutlet weak var referencesText: UILabel!
     
     var dataTickets: DataTicket?
@@ -40,13 +39,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : En proceso")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "En proceso")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -62,13 +61,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Cargado")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "Cargado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -84,13 +83,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : " + (statusFinal ?? ""))
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: statusFinal ?? "")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -106,13 +105,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Entregado")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "Entregado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -128,13 +127,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : No entregado")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "No entregado")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -150,13 +149,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Transferido")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "Transferido")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -173,13 +172,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Preparando ruta")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "Preparando ruta")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -196,13 +195,13 @@ class StatusPackageViewController: UIViewController {
                 
                 // Creamos una cadena NSMutableAttributedString
                 let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Fuera de rango")
-
+                
                 // Definimos los atributos de texto para la palabra "Recolectando"
                 let range = (attributedString.string as NSString).range(of: "Fuera de rango")
                 
                 // Aplicamos el estilo "Bond" a la palabra "Recolectando"
                 attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
-
+                
                 // Asignamos el attributedString al UILabel
                 statusIdText.attributedText = attributedString
                 
@@ -233,209 +232,265 @@ class StatusPackageViewController: UIViewController {
             }
             return nil
         }
-
+        
         // Definir los formatos de entrada
         let inputDateFormats = ["yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss"]
-
+        
         // Obtener la fecha de entrega del dataTickets
         guard let rawFechaPromesaEntrega = dataTickets?.fechaPromesaEntrega else {
             print("Error: La cadena de fecha es nula")
             deliveryDateText.text = "--- --- --- ---"
             return
         }
-
+        
         // Intentar convertir la cadena de fecha a un objeto Date usando los formatos definidos
         guard let dateTime = convertToDate(from: rawFechaPromesaEntrega, formats: inputDateFormats) else {
             print("Error: No se pudo convertir la cadena de fecha a Date")
             deliveryDateText.text = "--- --- --- ---"
             return
         }
-
+        
         // Imprimir la fecha después de la conversión para verificar
         print("Fecha convertida:", dateTime)
-
+        
         // Definir un formateador de fecha personalizado para el formato de salida deseado
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "es")
         formatter.dateFormat = "EEEE d 'de' MMMM yyyy"
-
+        
         // Formatear el objeto Date en el formato de salida deseado
         let formattedDate = formatter.string(from: dateTime)
         print(formattedDate)
-
+        
         // Asignar la fecha ya procesada
         deliveryDateText.text = formattedDate
-
+        
         // MARK: -HORA DE ENTREGA APROXIMADA-
         // Formatear la hora de entrega
         let hourFormatter = DateFormatter()
         hourFormatter.dateFormat = "hh:mm a"
         hourFormatter.amSymbol = "a. m."
         hourFormatter.pmSymbol = "p. m."
-
+        
         // Formatear el objeto Date en el formato de salida deseado
         let formattedHourString = hourFormatter.string(from: dateTime)
         print(formattedHourString)
-
+        
         // Asignar la hora ya procesada
         deliveryHourText.text = formattedHourString
         
         //MARK: -FECHA DE INICIO-
         // Asignamos la fecha de inicio de la entrega
         /*var inicio1 = dataTickets?.fechaSolicitud
-        print(inicio1 as Any)
-        
-        // Attempt to parse the input date string with each format
-        var date: Date? = nil
-        for format in inputDateFormats {
-            let formatter = DateFormatter()
-            formatter.dateFormat = format
-            if let parsedDate = formatter.date(from: inicio1 ?? "") {
-                date = parsedDate
-                break // Stop loop if a valid date is found
-            }
-        }
-        
-        if let validDate = date {
-            // Define the output date format
-            let outputDateFormatter = DateFormatter()
-            outputDateFormatter.dateFormat = "dd/MM/yy"
-            
-            // Format the Date object into the desired output format
-            let formattedDateString = outputDateFormatter.string(from: validDate)
-            
-            inicio1 = formattedDateString
-            print(formattedDateString) // Prints: "10/06/24"
-            
-            // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Fecha: " + formattedDateString)
-
-            // Definimos los atributos de texto para la palabra "Recolectando"
-            let range = (attributedString.string as NSString).range(of: "Fecha: ")
-            
-            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
-            // Asignamos el attributedString al UILabel
-            dateStartText.attributedText = attributedString
-        } else {
-            print("Invalid date string")
-            // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
-
-            // Definimos los atributos de texto para la palabra "Recolectando"
-            let range = (attributedString.string as NSString).range(of: "Fecha: ")
-            
-            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
-            // Asignamos el attributedString al UILabel
-            dateStartText.attributedText = attributedString
-        }*/
+         print(inicio1 as Any)
+         
+         // Attempt to parse the input date string with each format
+         var date: Date? = nil
+         for format in inputDateFormats {
+         let formatter = DateFormatter()
+         formatter.dateFormat = format
+         if let parsedDate = formatter.date(from: inicio1 ?? "") {
+         date = parsedDate
+         break // Stop loop if a valid date is found
+         }
+         }
+         
+         if let validDate = date {
+         // Define the output date format
+         let outputDateFormatter = DateFormatter()
+         outputDateFormatter.dateFormat = "dd/MM/yy"
+         
+         // Format the Date object into the desired output format
+         let formattedDateString = outputDateFormatter.string(from: validDate)
+         
+         inicio1 = formattedDateString
+         print(formattedDateString) // Prints: "10/06/24"
+         
+         // Creamos una cadena NSMutableAttributedString
+         let attributedString = NSMutableAttributedString(string: "Fecha: " + formattedDateString)
+         
+         // Definimos los atributos de texto para la palabra "Recolectando"
+         let range = (attributedString.string as NSString).range(of: "Fecha: ")
+         
+         // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+         attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+         
+         // Asignamos el attributedString al UILabel
+         dateStartText.attributedText = attributedString
+         } else {
+         print("Invalid date string")
+         // Creamos una cadena NSMutableAttributedString
+         let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
+         
+         // Definimos los atributos de texto para la palabra "Recolectando"
+         let range = (attributedString.string as NSString).range(of: "Fecha: ")
+         
+         // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+         attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+         
+         // Asignamos el attributedString al UILabel
+         dateStartText.attributedText = attributedString
+         }*/
         
         // Quita los últimos 4 caracteres
         //if let fechaSinUltimosCuatro = inicio1?.dropLast(4) {
         /*if let fechaSinUltimosCuatro = inicio1 {
-            // Convierte el Substring a String
-            var nuevaFechaString = String(fechaSinUltimosCuatro)
-            //print(nuevaFechaString) // Output: 2024-03-15T18:21:20
-            
-            // Aquí puedes usar nuevaFechaString para lo que necesites
-            // Le agregamos la Z al final
-            nuevaFechaString += "Z"
-            inicio1 = nuevaFechaString
-        }*/
+         // Convierte el Substring a String
+         var nuevaFechaString = String(fechaSinUltimosCuatro)
+         //print(nuevaFechaString) // Output: 2024-03-15T18:21:20
+         
+         // Aquí puedes usar nuevaFechaString para lo que necesites
+         // Le agregamos la Z al final
+         nuevaFechaString += "Z"
+         inicio1 = nuevaFechaString
+         }*/
         
         // Verificar si la cadena de entrada es válida
         /*if let inicio = inicio1 {
-            // Parsear la cadena de fecha a Date
-            let dateFormatter = ISO8601DateFormatter()
-            if let dateTime2 = dateFormatter.date(from: inicio) {
-                // Define un formateador personalizado para el formato de salida deseado
-                let formatter2 = DateFormatter()
-                formatter2.dateFormat = "dd/MM/yy"
-                
-                // Formatea el objeto Date en el formato de salida deseado
-                let formattedDate2 = formatter2.string(from: dateTime2)
-                //print(formattedDate2) // Aquí puedes utilizar el valor formateado como necesites
-                
-                // Asignamos la fecha de inicio
-                //dateStartText.text = formattedDate2
-                // Creamos una cadena NSMutableAttributedString
-                let attributedString = NSMutableAttributedString(string: "Fecha: " + formattedDate2)
-
-                // Definimos los atributos de texto para la palabra "Recolectando"
-                let range = (attributedString.string as NSString).range(of: "Fecha: ")
-                
-                // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
-                // Asignamos el attributedString al UILabel
-                dateStartText.attributedText = attributedString
-            } else {
-                print("Error al parsear la fecha")
-                
-                // Asignamos la fecha de inicio
-                // Creamos una cadena NSMutableAttributedString
-                let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
-
-                // Definimos los atributos de texto para la palabra "Recolectando"
-                let range = (attributedString.string as NSString).range(of: "Fecha: ")
-                
-                // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
-                // Asignamos el attributedString al UILabel
-                dateStartText.attributedText = attributedString
-            }
-        } else {
-            print("Cadena de entrada no válida")
-            
-            // Asignamos la fecha de inicio
-            // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
-
-            // Definimos los atributos de texto para la palabra "Recolectando"
-            let range = (attributedString.string as NSString).range(of: "Fecha: ")
-            
-            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
-            // Asignamos el attributedString al UILabel
-            dateStartText.attributedText = attributedString
-        }*/
+         // Parsear la cadena de fecha a Date
+         let dateFormatter = ISO8601DateFormatter()
+         if let dateTime2 = dateFormatter.date(from: inicio) {
+         // Define un formateador personalizado para el formato de salida deseado
+         let formatter2 = DateFormatter()
+         formatter2.dateFormat = "dd/MM/yy"
+         
+         // Formatea el objeto Date en el formato de salida deseado
+         let formattedDate2 = formatter2.string(from: dateTime2)
+         //print(formattedDate2) // Aquí puedes utilizar el valor formateado como necesites
+         
+         // Asignamos la fecha de inicio
+         //dateStartText.text = formattedDate2
+         // Creamos una cadena NSMutableAttributedString
+         let attributedString = NSMutableAttributedString(string: "Fecha: " + formattedDate2)
+         
+         // Definimos los atributos de texto para la palabra "Recolectando"
+         let range = (attributedString.string as NSString).range(of: "Fecha: ")
+         
+         // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+         attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+         
+         // Asignamos el attributedString al UILabel
+         dateStartText.attributedText = attributedString
+         } else {
+         print("Error al parsear la fecha")
+         
+         // Asignamos la fecha de inicio
+         // Creamos una cadena NSMutableAttributedString
+         let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
+         
+         // Definimos los atributos de texto para la palabra "Recolectando"
+         let range = (attributedString.string as NSString).range(of: "Fecha: ")
+         
+         // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+         attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+         
+         // Asignamos el attributedString al UILabel
+         dateStartText.attributedText = attributedString
+         }
+         } else {
+         print("Cadena de entrada no válida")
+         
+         // Asignamos la fecha de inicio
+         // Creamos una cadena NSMutableAttributedString
+         let attributedString = NSMutableAttributedString(string: "Fecha: " + "--/--/----")
+         
+         // Definimos los atributos de texto para la palabra "Recolectando"
+         let range = (attributedString.string as NSString).range(of: "Fecha: ")
+         
+         // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+         attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+         
+         // Asignamos el attributedString al UILabel
+         dateStartText.attributedText = attributedString
+         }*/
         
         //MARK: -DESTINATARIO-
-        if dataTickets?.destinatarios.razonSocial != nil {
+        // Variables para armar el destinatario
+        var ciudad = ""
+        var estado = ""
+        var pais = ""
+        var destinatarioFull = ""
+        
+        /*if dataTickets?.destinatarios.razonSocial != nil {
             // Asignamos el destinatario
             // Creamos una cadena NSMutableAttributedString
             let attributedString = NSMutableAttributedString(string: "Destinatario: " + (dataTickets?.destinatarios.razonSocial ?? ""))
-
+            
             // Definimos los atributos de texto para la palabra "Recolectando"
             let range = (attributedString.string as NSString).range(of: "Destinatario: ")
             
             // Aplicamos el estilo "Bond" a la palabra "Recolectando"
             attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
+            
             // Asignamos el attributedString al UILabel
             destinataryText.attributedText = attributedString
         } else {
             //No tiene datos
             // Creamos una cadena NSMutableAttributedString
             let attributedString = NSMutableAttributedString(string: "Destinatario: " + "---- ---- -----")
-
+            
             // Definimos los atributos de texto para la palabra "Recolectando"
             let range = (attributedString.string as NSString).range(of: "Destinatario: ")
             
             // Aplicamos el estilo "Bond" a la palabra "Recolectando"
             attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-
+            
             // Asignamos el attributedString al UILabel
             destinataryText.attributedText = attributedString
+        }*/
+        
+        // Ciudad
+        if dataTickets?.destinatarios.municipio != nil {
+            if dataTickets?.destinatarios.municipio == "" {
+                //No tiene datos
+                ciudad = "Sin ciudad"
+            } else {
+                ciudad = dataTickets?.destinatarios.municipio ?? "Sin ciudad"
+            }
+        } else {
+            //No tiene datos
+            ciudad = "Sin ciudad"
         }
         
+        // Estado
+        if dataTickets?.destinatarios.estado != nil {
+            if dataTickets?.destinatarios.estado == "" {
+                estado = "Sin estado"
+            } else {
+                estado = dataTickets?.destinatarios.estado ?? "Sin estado"
+            }
+        } else {
+            estado = "Sin estado"
+        }
+        
+        // País
+        if dataTickets?.destinatarios.pais != nil {
+            if dataTickets?.destinatarios.pais == "" {
+                pais = "Sin país"
+            } else {
+                pais = dataTickets?.destinatarios.pais ?? "Sin país"
+            }
+        } else {
+            pais = "Sin país"
+        }
+        
+        destinatarioFull = ciudad + ", " + estado + ", " + pais
+        
+        // Asignamos el destinatario
+        // Creamos una cadena NSMutableAttributedString
+        let attributedString = NSMutableAttributedString(string: "Destinatario: " + destinatarioFull)
+        
+        // Definimos los atributos de texto para la palabra "Recolectando"
+        let range = (attributedString.string as NSString).range(of: "Destinatario: ")
+        
+        // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+        attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+        
+        // Asignamos el attributedString al UILabel
+        destinataryText.attributedText = attributedString
+        
         //MARK: -TELEFONO/CONTACTO-
-        if dataTickets?.destinatarios.contacto != nil {
+        /*if dataTickets?.destinatarios.contacto != nil {
             // Asignamos el telefono/contacto
             var mgson = dataTickets?.destinatarios.contacto
             var inputText5: String?
@@ -497,7 +552,7 @@ class StatusPackageViewController: UIViewController {
             
             // Asignamos el attributedString al UILabel
             contactText.attributedText = attributedString
-        }
+        }*/
         
         //MARK: -DIRECCION-
         /*if dataTickets?.destinatarios.calle != nil {
@@ -529,26 +584,42 @@ class StatusPackageViewController: UIViewController {
         }*/
         
         //MARK: -REFERENCIAS-
-        if dataTickets?.destinatarios.referencia != nil {
+        print(dataTickets?.referencia as Any)
+        if dataTickets?.referencia != nil {
             // Asignamos el telefono/contacto
-            // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Referencias: " + (dataTickets?.destinatarios.referencia ?? ""))
+            if dataTickets?.referencia == "" {
+                //No tiene datos
+                // Creamos una cadena NSMutableAttributedString
+                let attributedString = NSMutableAttributedString(string: "Referencia: " + "-- -- -- --")
 
-            // Definimos los atributos de texto para la palabra "Recolectando"
-            let range = (attributedString.string as NSString).range(of: "Referencias: ")
-            
-            // Aplicamos el estilo "Bond" a la palabra "Recolectando"
-            attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
-            
-            // Asignamos el attributedString al UILabel
-            referencesText.attributedText = attributedString
+                // Definimos los atributos de texto para la palabra "Recolectando"
+                let range = (attributedString.string as NSString).range(of: "Referencia: ")
+                
+                // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+                
+                // Asignamos el attributedString al UILabel
+                referencesText.attributedText = attributedString
+            } else {
+                // Creamos una cadena NSMutableAttributedString
+                let attributedString = NSMutableAttributedString(string: "Referencia: " + (dataTickets?.referencia ?? "-- -- -- --"))
+
+                // Definimos los atributos de texto para la palabra "Recolectando"
+                let range = (attributedString.string as NSString).range(of: "Referencia: ")
+                
+                // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
+                
+                // Asignamos el attributedString al UILabel
+                referencesText.attributedText = attributedString
+            }
         } else {
             //No tiene datos
             // Creamos una cadena NSMutableAttributedString
-            let attributedString = NSMutableAttributedString(string: "Referencias: " + "-- -- -- -- --")
+            let attributedString = NSMutableAttributedString(string: "Referencia: " + "-- -- -- --")
 
             // Definimos los atributos de texto para la palabra "Recolectando"
-            let range = (attributedString.string as NSString).range(of: "Referencias: ")
+            let range = (attributedString.string as NSString).range(of: "Referencia: ")
             
             // Aplicamos el estilo "Bond" a la palabra "Recolectando"
             attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)

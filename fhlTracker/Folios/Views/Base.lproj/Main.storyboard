@@ -228,14 +228,8 @@
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teléfono: 55-10-18-33-33" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCO-3E-nwV" userLabel="Teléfono">
-                                <rect key="frame" x="16" y="509.5" width="343" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Referencias: Fachada blanca" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-dM-GMk" userLabel="Referencias">
-                                <rect key="frame" x="16" y="542.5" width="343" height="17"/>
+                                <rect key="frame" x="16" y="509.5" width="343" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.23921568630000001" green="0.17254901959999999" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -263,21 +257,18 @@
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bdC-9e-kXb" secondAttribute="trailing" symbolic="YES" id="TV4-0v-IOK"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="bdC-9e-kXb" secondAttribute="trailing" constant="16" id="Tow-wq-dBW"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="9np-WM-3dB" secondAttribute="trailing" constant="16" id="U09-Ow-O4s"/>
-                            <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="rCO-3E-nwV" secondAttribute="trailing" constant="16" id="Vhb-AL-pu8"/>
                             <constraint firstItem="9np-WM-3dB" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="Wie-mB-LXy"/>
                             <constraint firstItem="5dU-1S-jyR" firstAttribute="top" secondItem="Zly-a7-iId" secondAttribute="bottom" constant="32" id="Xdu-15-7Ws"/>
                             <constraint firstItem="bdC-9e-kXb" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="YcL-Um-UHx"/>
                             <constraint firstItem="iuj-Ka-TPu" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="a3T-nU-Gsb"/>
-                            <constraint firstItem="rCO-3E-nwV" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="bQQ-6A-EW0"/>
                             <constraint firstItem="CYp-TY-owO" firstAttribute="top" secondItem="6Ot-Lg-dtk" secondAttribute="bottom" constant="32" id="caC-l8-TRA"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="wSR-hZ-Fwz" secondAttribute="trailing" constant="16" id="dvD-Vx-7HE"/>
                             <constraint firstItem="xDe-dM-GMk" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="fpC-Ko-yi6"/>
-                            <constraint firstItem="xDe-dM-GMk" firstAttribute="top" secondItem="rCO-3E-nwV" secondAttribute="bottom" constant="16" id="jLm-0U-Hud"/>
+                            <constraint firstItem="xDe-dM-GMk" firstAttribute="top" secondItem="9np-WM-3dB" secondAttribute="bottom" constant="16" id="hbP-qj-aw4"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="5dU-1S-jyR" secondAttribute="trailing" constant="16" id="joS-41-H4Z"/>
                             <constraint firstItem="cWD-2x-9ho" firstAttribute="trailing" secondItem="xDe-dM-GMk" secondAttribute="trailing" constant="16" id="jxL-fs-aSc"/>
                             <constraint firstItem="Zly-a7-iId" firstAttribute="centerX" secondItem="Vgk-QJ-1LL" secondAttribute="centerX" id="kGj-fQ-FXm"/>
                             <constraint firstItem="6Ot-Lg-dtk" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="mFi-7v-oSN"/>
-                            <constraint firstItem="rCO-3E-nwV" firstAttribute="top" secondItem="9np-WM-3dB" secondAttribute="bottom" constant="16" id="q7n-D1-DgU"/>
                             <constraint firstItem="Ozb-NU-jGx" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="r6p-Wh-QyV"/>
                             <constraint firstItem="wSR-hZ-Fwz" firstAttribute="leading" secondItem="cWD-2x-9ho" secondAttribute="leading" constant="16" id="sSd-HQ-tqd"/>
                             <constraint firstItem="9np-WM-3dB" firstAttribute="top" secondItem="Ozb-NU-jGx" secondAttribute="bottom" constant="33" id="t0N-Y1-MpP"/>
@@ -291,7 +282,6 @@
                         <barButtonItem key="backBarButtonItem" title="Atras" id="Gtq-DX-Izs"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="contactText" destination="rCO-3E-nwV" id="YRK-o1-GKj"/>
                         <outlet property="deliveryDateText" destination="5dU-1S-jyR" id="wHj-yj-CGf"/>
                         <outlet property="deliveryHourText" destination="wSR-hZ-Fwz" id="qio-9O-HGt"/>
                         <outlet property="deliveryProcessStatus" destination="lTc-Pc-zV5" id="zXe-8Q-qXa"/>
@@ -309,7 +299,7 @@
     </scenes>
     <designables>
         <designable name="aeY-ee-b9e">
-            <size key="intrinsicContentSize" width="58" height="34"/>
+            <size key="intrinsicContentSize" width="32" height="34"/>
         </designable>
     </designables>
     <resources>
