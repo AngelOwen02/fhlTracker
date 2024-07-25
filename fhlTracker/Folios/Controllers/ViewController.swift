@@ -306,10 +306,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
                         self.showAlert(title: "Ups.", message: "\(dat.status!)   \(String(describing: dat.message))")
                     }
                     
-                case.failure(let error):
+                case.failure(_):
                     // Mostrar una alerta
                     //print(error.localizedDescription)
-                    let alert = UIAlertController(title: "Error", message: "Ocurrio un error con los datos.", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "", message: "No se encuentra el pedido. Intenta de nuevo (500)", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
