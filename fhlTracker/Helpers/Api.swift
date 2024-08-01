@@ -8,7 +8,8 @@
 import Foundation
 struct Api {
     //URL FH
-    static let serverFH = "https://sistemasservice.trafficmanager.net"
+    static let serverFH = "https://administracionsgd.ddns.net:7220"
+    //"https://sistemasservice.trafficmanager.net"
     
     //URL SGD
     static let serverSGD = "https://administracionsgd.ddns.net:7220"
