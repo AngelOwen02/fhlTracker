@@ -373,8 +373,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -541,8 +541,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "391"
-            endingLineNumber = "391"
+            startingLineNumber = "433"
+            endingLineNumber = "433"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -604,8 +604,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "336"
-            endingLineNumber = "336"
+            startingLineNumber = "378"
+            endingLineNumber = "378"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -667,8 +667,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "349"
-            endingLineNumber = "349"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -683,8 +683,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "375"
-            endingLineNumber = "375"
+            startingLineNumber = "417"
+            endingLineNumber = "417"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -699,8 +699,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "307"
-            endingLineNumber = "307"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -715,8 +715,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -731,8 +731,8 @@
             filePath = "fhlTracker/StatusPackage/Controllers/StatusPackageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "373"
-            endingLineNumber = "373"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -783,85 +783,6 @@
                   offsetFromSymbolStart = "868">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1FE29E7B-BC7C-47D1-837F-FBD34C4863A4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "fhlTracker/Folios/Controllers/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "352"
-            endingLineNumber = "352"
-            landmarkName = "setETAvsEE()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1FE29E7B-BC7C-47D1-837F-FBD34C4863A4 - 23ef8d8516e64461"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.ViewController.setETAvsEE() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/Folios/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "352"
-                  endingLineNumber = "352"
-                  offsetFromSymbolStart = "552">
-               </Location>
-               <Location
-                  uuid = "1FE29E7B-BC7C-47D1-837F-FBD34C4863A4 - 23ef8d8516e64461"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.ViewController.setETAvsEE() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/Folios/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "352"
-                  endingLineNumber = "352"
-                  offsetFromSymbolStart = "944">
-               </Location>
-               <Location
-                  uuid = "1FE29E7B-BC7C-47D1-837F-FBD34C4863A4 - 23ef8d8516e644a7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "fhlTracker.ViewController.setETAvsEE() -&gt; ()"
-                  moduleName = "fhlTracker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/joserivera/Desktop/Apps%20iOS/fhlLocator/fhlTracker/fhlTracker/Folios/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "354"
-                  endingLineNumber = "354"
-                  offsetFromSymbolStart = "900">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E67891C4-D3C5-4F7A-A8A4-A10D88FC3630"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "fhlTracker/Folios/Controllers/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "386"
-            endingLineNumber = "386"
-            landmarkName = "setETAvsEE()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

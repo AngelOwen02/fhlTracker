@@ -94,7 +94,27 @@ class StatusPackageViewController: UIViewController {
                 statusIdText.attributedText = attributedString
                 
                 // Asignamos la imagen
-                processStatus.image = UIImage(named: "statusThreeR")
+                switch(statusFinal){
+                case "En ruta":
+                    processStatus.image = UIImage(named: "statusThreeR")
+                    break;
+                    
+                case "En tiempo":
+                    processStatus.image = UIImage(named: "statusThreeTiempo")
+                    break;
+                    
+                case "Retrasado":
+                    processStatus.image = UIImage(named: "statusThreeRetrasado")
+                    break;
+                    
+                case .none:
+                    processStatus.image = UIImage(named: "statusThreeR")
+                    break;
+                    
+                case .some(_):
+                    processStatus.image = UIImage(named: "statusThreeR")
+                    break;
+                }
                 
                 //Asignamos el estatus de Entrega
                 deliveryProcessStatus.text = "Entrega estimada"
@@ -164,6 +184,28 @@ class StatusPackageViewController: UIViewController {
                 
                 //Asignamos el estatus de Entrega
                 deliveryProcessStatus.text = "El paquete ha sido transferido"
+                break
+                
+            case 9:
+                //statusIdText.text = "Transferido"
+                
+                // Creamos una cadena NSMutableAttributedString
+                let attributedString = NSMutableAttributedString(string: "El estatus del pedido es : Arribo")
+                
+                // Definimos los atributos de texto para la palabra "Recolectando"
+                let range = (attributedString.string as NSString).range(of: "Arribo")
+                
+                // Aplicamos el estilo "Bond" a la palabra "Recolectando"
+                attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
+                
+                // Asignamos el attributedString al UILabel
+                statusIdText.attributedText = attributedString
+                
+                // Asignamos la imagen
+                processStatus.image = UIImage(named: "statusNine")
+                
+                //Asignamos el estatus de Entrega
+                deliveryProcessStatus.text = "Entrega estimada"
                 break
                 
             case .none:

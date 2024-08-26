@@ -349,21 +349,28 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func setETAvsEE() {
-        //print(ETA as Any, entregaEstimada as Any)
         // Formatear las fechas
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        let inputDateFormats = ["yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss"]
+        var fechaEntregaEstimada: Date? = nil
+        var fechaETA: Date? = nil
 
-        // Suponiendo que entregaEstimada y ETA son cadenas (strings) con las fechas en el mismo formato
-        let entregaEstimada2 = self.entregaEstimada // o nil si está vacía
-        let ETA = self.ETA // o nil si está vacía
+        // Función para parsear una fecha con múltiples formatos
+        func parseDate(_ dateString: String?, withFormats formats: [String]) -> Date? {
+            guard let dateString = dateString else { return nil }
+            for format in formats {
+                let formatter = DateFormatter()
+                formatter.dateFormat = format
+                if let date = formatter.date(from: dateString) {
+                    return date
+                }
+            }
+            return nil
+        }
 
         // Parsear las fechas
-        let fechaEntregaEstimada = entregaEstimada2 != nil ? formatter.date(from: entregaEstimada2!) : nil
-        let fechaETA = ETA != nil ? formatter.date(from: ETA!) : nil
+        fechaEntregaEstimada = parseDate(self.entregaEstimada, withFormats: inputDateFormats)
+        fechaETA = parseDate(self.ETA, withFormats: inputDateFormats)
 
-        //print(fechaEntregaEstimada as Any, fechaETA as Any)
-        
         // Comparar las fechas
         let status: String
         if let fechaETA = fechaETA, let fechaEntregaEstimada = fechaEntregaEstimada {
@@ -373,11 +380,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 status = "Retrasado"
             }
         } else if fechaETA == nil {
-            //status = "Fecha ETA no válida"
             print("ETA invalida")
             status = "En ruta"
         } else {
-            //status = "Fecha de entrega estimada no válida"
             print("Fecha de entrega estimada no valida")
             status = "En ruta"
         }
